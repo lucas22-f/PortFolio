@@ -17,7 +17,7 @@ body{
 }
 
 .header .img1 img{
-    width: 30rem;
+    width: 20rem;
     box-shadow: 0 20px 35px rgba(0, 0, 0, 0.998);
     border-radius: 5%;
 }
@@ -26,7 +26,17 @@ body{
     margin: 0px 3%;
 }
 
-.hed-txt{
-    width: 100%;
+
+@media(max-width:700px){
+    .header .img1 img{
+        width: 15rem;
+    }
+    .hed-txt{
+       font-size: small;
+    }
+    .header{
+        flex-direction: column;
+        top: 80%;
+    }
 }
 
