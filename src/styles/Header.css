@@ -1,0 +1,45 @@
+.header{
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.hd1{
+    display: flex;
+    position: absolute;
+    margin-left: 6%;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+.header .img1 img{
+    width: 20rem;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.998);
+    border-radius: 5%;
+}
+
+.header .img1{
+    margin: 0% 10% 0 0%;
+}
+
+.hed-txt{
+   width: 40vw;
+}
+
+
+@media(max-width:700px){
+    .header .img1 img{
+        width: 15rem;
+        margin: 0;
+    }
+    .hed-txt{
+       font-size: small;
+       width: 100%;
+    }
+    .hd1{
+        height: 30vh;
+        flex-direction: column;
+      margin: 0;
+    }
+}
