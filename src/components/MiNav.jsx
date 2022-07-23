@@ -12,8 +12,8 @@ function MiNav() {
         <nav className='nav1'>
             <div className='navt'><h1><a href="#">Lucas</a> </h1></div>
             <ul className={sideBar ? "nav-menu" : "nav-menu active"}>
-                <li><a href="#ab">Sobre mi</a></li>
-                <li><a href="#">Proyectos</a></li>
+                <li><a href="#about">Sobre mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
             <div className="hmb" ><i onClick={handletoggle} className="fa-solid fa-bars"></i></div>

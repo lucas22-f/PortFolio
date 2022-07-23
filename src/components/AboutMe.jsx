@@ -2,7 +2,9 @@ import React from "react";
 import "../styles/AboutMe.css"
 function AboutMe() {
   return (
-    <section className="About" id="ab">
+    <>
+    <div id="about" className="fx">i</div>
+    <section className="About" >
       <div>
         <i className="fa-solid fa-mug-hot xd"></i>
       </div>
@@ -37,6 +39,7 @@ function AboutMe() {
       </div>
 
     </section>
+    </>
   );
 }
 
