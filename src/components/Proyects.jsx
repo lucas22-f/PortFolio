@@ -8,12 +8,13 @@ import p3 from "../assets/p3.png"
 
 function Proyects() {
   return (
-    <div className='proy' id='proyectos'>
+    <section className='proy' id='proyectos'>
+    <div className='fx2'>
         <div className='tl'>
         
         <h1>
         <i class="fa-solid fa-laptop-code"></i>
-        Proyectos    
+        Proyectos  
         <i class="fa-solid fa-diagram-project"></i>
         </h1>
         </div>
@@ -35,6 +36,8 @@ function Proyects() {
     
     
     </div>
+
+    </section>
   )
 }
 

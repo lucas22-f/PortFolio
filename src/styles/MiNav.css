@@ -43,7 +43,7 @@
   width: 0%;
   left: 0;
   bottom: -10px;
-  transition: 0.3s;
+  transition: 200ms;
 }
 
 .nav1 ul li a:hover::after {

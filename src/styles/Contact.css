@@ -1,0 +1,56 @@
+.cta{
+   
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.cv{
+    margin-top: 15%;
+}
+.socialsc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.iso{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 5rem;
+    width: 80vw;
+}
+
+.iso i {
+    margin: 2%;
+}
+
+
+.btn{
+    width: 15rem;
+    cursor: pointer;
+    box-shadow:0 20px 35px rgba(0, 0, 0, 0.998);
+    height: 3.5rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #08080e;
+    font-family: 'Nunito', sans-serif;
+    transition: all .5s;
+    border: 1px solid #fff;
+    
+
+}
+
+.btn:hover{
+    background-color: rgb(218, 218, 16);
+    border: 1px solid #08080e;
+    color: #08080e;
+}

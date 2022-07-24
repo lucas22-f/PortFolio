@@ -1,7 +1,14 @@
 .proy{
     display: flex;
     align-items: center;
-    min-height: 80vh;
+    min-height: 100vh;
+    justify-content: space-around;
+}
+
+.fx2{
+    display: flex;
+    width: 100%;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -31,15 +38,25 @@
 
 .tl{
     display: flex;
-
     letter-spacing: 13px;
+    
 }
+.tl i{
+    color: yellow;
+}
+
+
 
 
 @media (max-width:725px){
     .proy{
         flex-direction: column;
         margin-top: 20%;
+    }
+    .fx2{
+        flex-direction: column;
+        margin-top: 20%;
+
     }
 
     .hcards{
