@@ -20,16 +20,34 @@
     align-items: center;
     width: 100%;
 }
+.socialsc h1{
+    font-size: 2.5rem;
+    margin-bottom: 10%;
+}
 .iso{
     display: flex;
-    justify-content: space-evenly;
-    font-size: 5rem;
+    justify-content: center;
+   
+    font-size: 4rem;
     width: 80vw;
 }
-
-.iso i {
-    margin: 2%;
+.iso .idiv{
+    width: 90px;
+    background-color: #171616;
+    border-radius: 50%;
+    margin-left:3%;
+    margin-right:3%;
+    text-align: center;
+    line-height: 90px;
+    transition: all 1s ;
 }
+
+.iso .idiv:hover{
+    box-shadow:10px 10p rgb(218, 218, 16);
+}
+
+
+
 
 
 .btn{

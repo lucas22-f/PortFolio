@@ -12,10 +12,10 @@ function Contact() {
             <div className="socialsc">
                 <h1> Contacto </h1>
                 <div className="iso">
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-github"></i>
-                <i class="fa-solid fa-envelope"></i>
-                <i class="fa-brands fa-whatsapp"></i>
+                  <div className='idiv'><i class="fa-brands fa-linkedin"></i></div>
+                  <div className='idiv'><i class="fa-brands fa-github"></i></div>
+                  <div className='idiv'><i class="fa-solid fa-envelope"></i></div>
+                  <div className='idiv'> <i class="fa-brands fa-whatsapp"></i></div>
                 </div>
             </div>
 
