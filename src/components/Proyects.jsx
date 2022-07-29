@@ -25,11 +25,11 @@ function Proyects() {
                 <p>Grill House</p>
             </div>
             <div className="hcard">
-                <img src={p2} alt="img1" />
+                <a href="https://polar-savannah-81344.herokuapp.com/" target="blank"><img src={p2} alt="img1" /></a>
                 <p>Buen Viaje</p>
             </div>
             <div className="hcard">
-                <img src={p3} alt="img1" />
+                <a href="#"><img src={p3} alt="img1" /></a>
                 <p>PortFolio</p>
             </div>
         </div>
