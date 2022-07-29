@@ -13,9 +13,9 @@ function Proyects() {
         <div className='tl'>
         
         <h1>
-        <i class="fa-solid fa-laptop-code"></i>
+        <i className="fa-solid fa-laptop-code"></i>
         Proyectos  
-        <i class="fa-solid fa-diagram-project"></i>
+        <i className="fa-solid fa-diagram-project"></i>
         </h1>
         </div>
 

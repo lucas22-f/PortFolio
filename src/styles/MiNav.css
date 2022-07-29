@@ -17,8 +17,9 @@
   box-shadow: 0 5px 30px rgba(0, 0, 0, 0.7);
   align-items: center;
   justify-content: space-evenly;
+
 }
-.nav1 ul {
+.nav-menu{
   list-style: none;
   padding: 0;
   margin: 0;
@@ -27,6 +28,8 @@
   height: 70px;
   justify-content: space-evenly;
   align-items: center;
+  
+  
 }
 
 .nav1 ul li a {
@@ -75,41 +78,37 @@
 
 @media (max-width:768px){
   .nav1{
-    justify-content: space-between;
-    height: 18vh;
-    
-  }
-  .navt{
-    padding-left: 2rem;
-  }
-  .nav1 ul{
-    position: absolute;
-    left: 0;
-    top: -100%;
-    gap: 2rem;
     flex-direction: column;
-    width: 100%;
-    transition: all 0.3s;
-    
   }
-  .socials{
-    display: flex;
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: -100%;
-    left: 50.5%;
+  .nav1 .active{
+    height: 30vh;
+  }
+  .nav-menu{
+    display: none;
   }
   .nav-menu.active{
-    top:23%;
-    
+    display: flex;
+    flex-direction: column;
   }
+  
+  .socials{
+    display: none;
+  }
+
   .socials.active{
-    top:42.5% ;
+    display: block;
+    width: auto;
+    height: 3rem;
   }
+
+
   .hmb{
     display: block;
+    position: absolute;
     font-size: 30px;
     padding: 2rem;
+    right: 1%;
+    top: 0;
   }
   
 

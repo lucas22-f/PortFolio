@@ -1,10 +1,12 @@
 
 .About{
+    
     display: flex;
     align-items: center;
     flex-direction: column;
-    min-height: 80vh;
-    margin: 5% 20% 0 20%;
+    min-height: 100vh;
+    border: 1px solid #fff;
+    
 }
 
 .tray{

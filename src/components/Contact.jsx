@@ -12,10 +12,10 @@ function Contact() {
             <div className="socialsc">
                 <h1> Contacto </h1>
                 <div className="iso">
-                  <div className='idiv'><i class="fa-brands fa-linkedin"></i></div>
-                  <div className='idiv'><i class="fa-brands fa-github"></i></div>
-                  <div className='idiv'><i class="fa-solid fa-envelope"></i></div>
-                  <div className='idiv'> <i class="fa-brands fa-whatsapp"></i></div>
+                  <a href="https://www.linkedin.com/in/lucas-figueroa-3b5743226/"><div className='idiv'><i className="fa-brands fa-linkedin"></i></div></a>
+                  <a href="https://github.com/lucas22-f"><div className='idiv'><i className="fa-brands fa-github"></i></div></a>
+                  <a href="mailto:lucas.200061@gmail.com"><div className='idiv'><i className="fa-solid fa-envelope"></i></div></a>
+                  <a href="https://wa.me/5491165427871"><div className='idiv'><i className="fa-brands fa-whatsapp"></i></div></a>
                 </div>
             </div>
 

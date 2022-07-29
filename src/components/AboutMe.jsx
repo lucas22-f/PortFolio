@@ -2,15 +2,13 @@ import React from "react";
 import "../styles/AboutMe.css"
 function AboutMe() {
   return (
-    <>
-    <div id="about" className="fx">i</div>
-    <section className="About" >
+   
+   
+    <section className="About" id="about" >
+      <div className="tray">
       <div>
         <i className="fa-solid fa-mug-hot xd"></i>
       </div>
-
-
-      <div className="tray">
         <p>
           Esta es mi trayectoria...
         </p>
@@ -39,7 +37,7 @@ function AboutMe() {
       </div>
 
     </section>
-    </>
+   
   );
 }
 

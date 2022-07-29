@@ -5,6 +5,7 @@ import AboutMe from "./components/AboutMe.jsx"
 import Proyects from "./components/Proyects.jsx"
 import "./app.css"
 import Contact from "./components/Contact.jsx"
+import Footer from "./components/Footer.jsx"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
     <AboutMe></AboutMe>
     <Proyects></Proyects>
     <Contact></Contact>
+    <Footer></Footer>
 
     
    </>

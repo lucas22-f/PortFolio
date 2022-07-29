@@ -9,7 +9,7 @@ function MiNav() {
 
 
     return (
-        <nav className='nav1'>
+        <nav className={sideBar ? "nav1":"nav1 active"}>
             <div className='navt'><h1><a href="#">Lucas</a> </h1></div>
             <ul className={sideBar ? "nav-menu" : "nav-menu active"}>
                 <li><a href="#about">Sobre mi</a></li>
