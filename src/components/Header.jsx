@@ -11,7 +11,7 @@ function Header() {
 
         <div className="hed-txt">
           <h1>
-            ¡Hola soy Lucas! <br></br>Soy Desarrollador Web
+            ¡Hola soy Lucas! <br></br>Desarrollador Web
           </h1>
         </div>
       </div>

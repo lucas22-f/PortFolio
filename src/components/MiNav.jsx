@@ -18,9 +18,9 @@ function MiNav() {
             </ul>
             <div className="hmb" ><i onClick={handletoggle} className="fa-solid fa-bars"></i></div>
             <div className={sideBar ? "socials" : "socials active"}>
-                <a href="https://github.com/lucas22-f"><i className="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/lucas-figueroa-3b5743226/"><i className="fa-brands fa-linkedin"></i></a>
-                <a href="https://www.instagram.com/lucas.figueroa22/?theme=dark"><i className="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/lucas22-f" target="blank"><i className="fa-brands fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/lucas-figueroa-3b5743226/" target="blank"><i className="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/lucas.figueroa22/?theme=dark" target="blank"><i className="fa-brands fa-instagram"></i></a>
             </div>
 
         </nav>
